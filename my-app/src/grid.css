@@ -1,0 +1,42 @@
+
+#drum-machine{
+    display: grid;
+    align-content: center;
+    justify-content:center;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#pads {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-gap: 12px;
+}
+.slidecontainer {
+    display: grid;
+   align-items: center;
+   justify-items: center; 
+}
+.drum-pad {
+    display: grid;
+   align-items: center;
+   justify-items: center;
+}
+#display{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-self: end;
+    justify-self: center;
+}
+#bank {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-self: center;
+    justify-self: center;
+}
